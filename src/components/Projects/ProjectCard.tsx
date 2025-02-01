@@ -11,7 +11,10 @@ interface ProjectCardProps {
   description: string;
   linkHref: string;
   linkText: string;
-  images: { src: StaticImageData; alt: string; }[];
+  images: {
+    src: string;
+    alt: string;
+  }[];
   isReversed?: boolean;
 }
 

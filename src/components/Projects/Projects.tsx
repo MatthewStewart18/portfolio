@@ -2,8 +2,11 @@
 
 // src/components/Projects/Projects.tsx
 import { ProjectCard } from './ProjectCard';
-import { StaticImageData } from 'next/image';
-import projectScreenshot from '../../../public/images/project-screenshot.png';
+
+interface ProjectImage {
+  src: string;
+  alt: string;
+}
 
 interface Project {
   title: string;
@@ -12,11 +15,11 @@ interface Project {
   description: string;
   linkHref: string;
   linkText: string;
-  images: { src: StaticImageData; alt: string; }[];
+  images: ProjectImage[];
 }
 
 export default function Projects() {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "Promptability",
       subtitle: "Web Development, Design, Idea",
@@ -31,7 +34,7 @@ export default function Projects() {
       linkText: "promptability",
       images: [
         {
-          src: projectScreenshot,  // Note how we reference it from the public directory
+          src: "/images/project-screenshot.png",
           alt: "Description of what the screenshot shows"
         }
       ]
