@@ -43,7 +43,22 @@ export function ProjectCard({
       <div className="space-y-3 md:col-span-3 md:ltr">
         <h3 className="text-2xl font-medium">{title}</h3>
         <p className="text-base">{subtitle}</p>
+        <div className="space-y-20"> 
         <p className="text-base">{period}</p>
+        <p className="text-base text-gray-600 whitespace-pre-line">
+          {description}
+        </p>
+        </div>
+        
+        <a
+          href={linkHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block group"
+        >
+          {linkText}
+          <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
+        </a>
       </div>
 
       <div className="md:col-span-3 lg:col-span-5 md:ltr">
@@ -90,22 +105,6 @@ export function ProjectCard({
             </div>
           </div>
         )}
-      </div>
-
-      <div className="space-y-8 md:col-span-3 lg:col-span-3 md:ltr">
-        <p className="text-base text-gray-600 whitespace-pre-line">
-          {description}
-        </p>
-        
-        <a
-          href={linkHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block group"
-        >
-          {linkText}
-          <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
-        </a>
       </div>
     </div>
   );

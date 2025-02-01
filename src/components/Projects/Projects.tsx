@@ -24,17 +24,19 @@ export default function Projects() {
       title: "Promptability",
       subtitle: "Web Development, Design, Idea",
       period: "2024-2025",
-      description: `This project started as part of my computer science final year project.
+      description: 
+      `This project started as part of my computer science final year project.
 
-      My goal was to create a simple, user-friendly tool that allows users to interact with generative AI 
-      and evaluate the model performances using a sophisticated evaluation suite.
+      My goal was to create a simple, user-friendly tool that allows users
+      to interact with generative AI and evaluate the model performances
+      using a sophisticated evaluation suite.
 
       The project was developed using Python, Javascript, React and Firebase.`,
       linkHref: "https://www.github.com/matthewstewart18",
       linkText: "promptability",
       images: [
         {
-          src: "/images/project-screenshot.png",
+          src: "/images/promptability_home.png",
           alt: "Description of what the screenshot shows"
         }
       ]
