@@ -2,7 +2,7 @@
 
 // src/components/Projects/ProjectCard.tsx
 import { useState } from 'react';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   title: string;
