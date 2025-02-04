@@ -7,19 +7,19 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Matthew Stewart  - Portfolio',
-  description: 'A business oriented product engineer with 3+ years of experience working in fintech and proptech industries',
+  description: 'Aspiring software engineer with a passion for development and creativity with 1 year experience in industry.',
   openGraph: {
     title: 'Matthew Stewart - Portfolio',
-    description: 'A business oriented product engineer with 3+ years of experience working in fintech and proptech industries',
-    url: 'https://www.andreymitko.com',
-    siteName: 'Andrey Mitko - Portfolio',
+    description: 'Aspiring software engineer with a passion for development and creativity with 1 year experience in industry.',
+    url: 'https://mstewart.dev',
+    siteName: 'Matthew Stewart - Portfolio',
     locale: 'en_GB',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Andrey Mitko - Portfolio',
-    description: 'A business oriented product engineer with 3+ years of experience working in fintech and proptech industries',
+    title: 'Matthew Stewart - Portfolio',
+    description: 'Aspiring software engineer with a passion for development and creativity with 1 year experience in industry.',
   }
 };
 
