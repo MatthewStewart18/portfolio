@@ -46,7 +46,7 @@ export default function Hero() {
             </div>
             <div className="aspect-[5/5] relative rounded-lg overflow-hidden bg-gray-100">
               <Image
-                src="/images/kiddo.jpg"
+                src="/images/kiddo.JPG"
                 alt="Matthew Stewart"
                 fill
                 className="object-cover"
