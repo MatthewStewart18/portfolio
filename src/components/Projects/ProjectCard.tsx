@@ -23,8 +23,8 @@ export function ProjectCard({
   subtitle,
   period,
   description,
-  linkHref,
-  linkText,
+  // linkHref,
+  // linkText,
   images,
   isReversed = false
 }: ProjectCardProps) {
