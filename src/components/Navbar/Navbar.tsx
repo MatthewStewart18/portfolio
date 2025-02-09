@@ -3,12 +3,13 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Sun, Moon, FileText,      // Standard document icon
-  File,          // Simple file icon
-  FileArchive,   // Document with lines
-  ScrollText,    // Scroll-like document
-  FileIcon,      // Another document variant
-  ClipboardList } from 'lucide-react';
+import { Sun, Moon, ScrollText } from 'lucide-react';
+
+  // FileIcon,      // Another document variant
+  // ClipboardList
+  // File,          // Simple file icon
+  // FileArchive,
+  // FileText,      // Standard document icon
 
 export default function Navbar() {
   const [isDarkMode, setIsDarkMode] = useState(false);
