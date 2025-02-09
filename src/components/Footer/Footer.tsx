@@ -3,7 +3,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
     
     return (
-      <footer className="px-6 md:px-16 max-w-screen-2xl mx-auto mb-10">
+      <footer id="contact" className="px-6 md:px-16 max-w-screen-2xl mx-auto mb-10">
         <hr className="h-[2px] bg-gray-200 mb-12 md:mb-16" />
         
         <div className="space-y-20 md:space-y-24 lg:space-y-28">

@@ -41,7 +41,7 @@ export function ProjectCard({
   return (
     <div className={`grid md:grid-cols-6 lg:grid-cols-8 gap-8 ${isReversed ? 'md:rtl' : ''}`}>
       <div className="space-y-3 md:col-span-3 md:ltr">
-        <h3 className="text-2xl font-medium">{title}</h3>
+        <h3 className="text-lg md:text-2xl font-medium">{title}</h3>
         <p className="text-base">{subtitle}</p>
         <div className="space-y-20"> 
         <p className="text-base">{period}</p>

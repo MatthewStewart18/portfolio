@@ -96,7 +96,7 @@ export function ExperienceCard({
       <div className="md:hidden flex flex-col space-y-8">
         {/* Company Info Section */}
         <div className="space-y-2">
-          <h3 className="text-3xl font-medium">{company}</h3>
+          <h3 className="text-lg md:text-2xl font-medium">{company}</h3>
           <p className="text-base">{description}</p>
           <p className="text-base">{period}</p>
         </div>
@@ -138,7 +138,7 @@ export function ExperienceCard({
       <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-12 gap-8">
         {/* Left Column */}
         <div className="lg:col-span-3">
-          <h3 className="text-2xl font-medium mb-4">{company}</h3>
+          <h3 className="text-lg md:text-2xl font-medium mb-4">{company}</h3>
           {/* <p className="text-base mb-2">{description}</p> */}
           <p className="text-base">{period}</p>
         </div>
