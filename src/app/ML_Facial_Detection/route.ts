@@ -17,6 +17,7 @@ export async function GET() {
 
     return response;
   } catch (err) {
+    console.error('Error serving research paper:', err);
     return new NextResponse('Research paper not found', { status: 404 });
   }
 }

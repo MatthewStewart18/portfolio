@@ -17,6 +17,7 @@ export async function GET() {
 
     return response;
   } catch (err) {
+    console.error('Error serving resume:', err);
     return new NextResponse('Resume not found', { status: 404 });
   }
 }
