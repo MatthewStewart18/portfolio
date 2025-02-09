@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // Enable static exports
-  images: {
-    unoptimized: true, // Required for static export
-  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.pdf$/,
+      type: 'asset/resource'
+    });
+    return config;
+  }
 };
 
 export default nextConfig;

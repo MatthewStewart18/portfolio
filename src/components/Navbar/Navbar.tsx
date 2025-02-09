@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* Email - Hidden on mobile */}
         <div className="hidden lg:block">
-          <a href="mailto:ms.dev2003@gmail.com" className="group">
+          <a href="/resume" className="group">
             Link to my<br/>
             Resume
             <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
