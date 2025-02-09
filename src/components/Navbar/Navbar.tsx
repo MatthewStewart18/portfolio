@@ -1,8 +1,14 @@
+// src/components/Navbar/Navbar.tsx
 'use client'
 
-// src/components/Navbar/Navbar.tsx
 import { useState } from 'react';
 import Link from 'next/link';
+import { Sun, Moon, FileText,      // Standard document icon
+  File,          // Simple file icon
+  FileArchive,   // Document with lines
+  ScrollText,    // Scroll-like document
+  FileIcon,      // Another document variant
+  ClipboardList } from 'lucide-react';
 
 export default function Navbar() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -10,35 +16,47 @@ export default function Navbar() {
   return (
     <header className="w-full px-6 md:px-16 pt-10">
       <div className="flex justify-between items-center max-w-screen-2xl mx-auto">
-        {/* Location */}
-        <p className="text-base">
-        Based in<br />
-        Belfast, United Kingdom<br />
-        Monaghan, Republic of Ireland
-        </p>
+        {/* Left side: Location and Theme Toggle */}
+        <div className="flex items-center gap-8">
+          {/* Location */}
+          <p className="text-base">
+            Based in<br />
+            Belfast, United Kingdom
+          </p>
 
-        {/* Email - Hidden on mobile */}
-        <div className="hidden lg:block">
+          {/* Theme Toggle */}
+          <button
+            onClick={() => setIsDarkMode(!isDarkMode)}
+            className="hidden lg:flex items-center gap-2 hover:opacity-80"
+            aria-label="Toggle theme"
+          >
+            {isDarkMode ? <Moon size={20} /> : <Sun size={20} />}
+          </button>
+
+          {/* Center: Resume Link */}
           <a href="/resume" className="group">
-            Link to my<br/>
-            Resume
+            <span>
+            CV <ScrollText size={16} className="inline-block" />
+            </span>
             <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
           </a>
         </div>
 
-        {/* Theme Toggle - Hidden on mobile */}
+        {/* Center: Name */}
         <div className="hidden lg:block">
-          <button
-            onClick={() => setIsDarkMode(!isDarkMode)}
-            className="group"
-          >
-            Switch the<br/>
-            Color Mode
-            <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
-          </button>
+          <h1 className="text-3xl font-medium">
+            MATTHEW STEWART
+          </h1>
         </div>
 
-        {/* Navigation - Hidden on mobile */}
+        {/* Center: Resume Link
+          <a href="/resume" className="group">
+            Link to my<br/>
+            Resume
+            <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
+          </a> */}
+
+        {/* Right side: Navigation */}
         <nav className="hidden lg:flex gap-8">
           <Link href="#about" className="text-sm font-medium hover:opacity-80">ABOUT</Link>
           <Link href="#experience" className="text-sm font-medium hover:opacity-80">EXPERIENCE</Link>
