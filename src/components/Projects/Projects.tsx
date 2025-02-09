@@ -22,16 +22,19 @@ export default function Projects() {
   const projects: Project[] = [
     {
       title: "Promptability",
-      subtitle: "Web Development, Design, Idea",
+      subtitle: "Web Development",
       period: "2024-2025",
       description: 
-      `This project started as part of my computer science final year project.
-
-      My goal was to create a simple, user-friendly tool that allows users
-      to interact with generative AI and evaluate the model performances
-      using a sophisticated evaluation suite.
-
-      The project was developed using Python, Javascript, React and Firebase.`,
+      `Promptability is an all-in-one application for interacting with
+      state of the art Hugging Face Large Language Models.
+      
+      users can interact directly with models through a user friendly
+      playground, test and analyse model performances through an
+      evaluation suite and create their own custom prompt library
+      through the prompt suite.
+      
+      Technology stack: Python, React, Docker, Firebase, Hugging Face
+      `,
       linkHref: "https://www.github.com/matthewstewart18",
       linkText: "promptability",
       images: [
@@ -46,7 +49,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="px-6 md:px-16 max-w-screen-2xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-medium uppercase mb-4">Projects</h2>
+      <h2 className="text-lg md:text-2xl font-medium uppercase mb-4">Projects</h2>
       <hr className="h-[2px] bg-gray-200 mb-12 md:mb-16" />
       
       <div className="space-y-28">

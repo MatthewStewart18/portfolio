@@ -14,7 +14,7 @@ export default function Footer() {
             </h4>
             
             <a 
-              href="mailto:privet.dev@pm.me" 
+              href="mailto:ms.dev2003@gmail.com" 
               className="text-lg md:text-xl xl:text-2xl group"
             >
               ms.dev2003@gmail.com

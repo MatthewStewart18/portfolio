@@ -50,7 +50,7 @@ export function ProjectCard({
         </p>
         </div>
         
-        <a
+        {/* <a
           href={linkHref}
           target="_blank"
           rel="noopener noreferrer"
@@ -58,7 +58,7 @@ export function ProjectCard({
         >
           {linkText}
           <div className="h-[2px] w-full bg-current transform origin-left transition-transform group-hover:scale-x-100" />
-        </a>
+        </a> */}
       </div>
 
       <div className="md:col-span-3 lg:col-span-5 md:ltr">

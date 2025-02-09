@@ -6,13 +6,12 @@ export default function Experience() {
     {
       company: "Rapid7",
       description: "Leading Cybersecurity company",
-      period: "May 2023 - June 2024",
-      details: `As a member of the Belfast Vulnerability content team working
-      on the Insight VM platform, I developed vulnerabilty checks for customer
-      facing issues.
+      period: "June 2023 - June 2024",
+      details: `As a member of the Belfast Inisght VM team, my main project involved creating a Gen AI vulnerability advisory web scraper that automated the creation of security vulnerability artifacts. Delivering customers full security coverage for all Zoom common vulnerabilites and exposures.
       
-      Rapid7 is an award-winning, Cybersecurity firm leading in its
-      sector to secure customers over all possible attack surfaces`,
+      I also contributed to the backend development of the Insight VM Vulnerabilty and Fingerprint services, enhancing user experience and reliabilty for customers globally.
+
+      `,
       position: "Software Engineering Intern",
       location: "Belfast, United Kingdom",
       industry: "Cyber-Security",
@@ -22,10 +21,10 @@ export default function Experience() {
 
   return (
     <section id="experience" className="px-6 md:px-16 max-w-screen-2xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-medium uppercase mb-4">Experience</h2>
+      <h2 className="text-lg md:text-2xl font-medium uppercase mb-4">Experience</h2>
       <hr className="h-[2px] bg-gray-200 mb-12 md:mb-16" />
       
-      <div className="space-y-28">
+      <div className="md:text-lg space-y-28">
         {experiences.map((exp, index) => (
           <ExperienceCard key={index} {...exp} />
         ))}
