@@ -3,10 +3,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Sun, Moon, ScrollText, Menu, X } from 'lucide-react';
+import { ScrollText, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ export default function Navbar() {
             MATTHEW<br />
             STEWART
           </p> */}
-          <h2 className="text-xs md:text-2xl font-medium uppercase mb-4">MATTHEW <br/> STEWART</h2>
+          <h2 className="text-lg md:text-2xl font-medium uppercase mb-4">MATTHEW <br/> STEWART</h2>
 
           <p className="text-sm md:text-base">
             Based in<br />
