@@ -16,7 +16,7 @@ export async function GET() {
     response.headers.set('Content-Disposition', 'inline; filename="Matthew_Stewart_Resume.pdf"');
 
     return response;
-  } catch (error) {
+  } catch (err) {
     return new NextResponse('Resume not found', { status: 404 });
   }
 }

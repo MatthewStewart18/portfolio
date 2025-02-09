@@ -16,7 +16,7 @@ export async function GET() {
     response.headers.set('Content-Disposition', 'inline; filename="ML_Facial_Detection.pdf"');
 
     return response;
-  } catch (error) {
+  } catch (err) {
     return new NextResponse('Research paper not found', { status: 404 });
   }
 }
