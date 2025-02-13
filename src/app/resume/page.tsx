@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 export default function ResumePage() {
   useEffect(() => {
-    window.location.href = '/resume.pdf';
+    window.location.href = '/CS_resume.pdf';
   }, []);
 
   return (
