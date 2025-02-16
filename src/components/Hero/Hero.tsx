@@ -68,15 +68,16 @@ export default function Hero() {
         <div className="mb-8 md:mb-12">
           <div className="text-xs md:text-sm lg:text-base text-gray-600 max-w-xl md:max-w-2xl mx-auto space-y-4 md:space-y-6">
             <p className="text-justify">
-              Hi, im Matthew. I am currently in my final year of Computer Science at 
+              Hi, i'm Matthew. I am currently in my final year of Computer Science at 
               Queen&apos;s University Belfast. My studies have deepened my interest in 
               Cloud computing as well as Artificial Intelligence.
             </p>
 
             <p className="text-justify">
-              I previously worked as a Software Engineer at Rapid7, focusing on leveraging 
-              AI to automate the process of securing customers environments from common
-              vulnerabilities and exposures.
+              I previously worked as a Software Engineer at Rapid7, focusing on engineering systems
+              that leveraged AI to collect and process web security advisory content for the
+              InsightVM platform. This content enabled accurate fingerprinting and identification of
+              vulnerabilities across customers environments globally.
             </p>
 
             <p className="text-justify">

@@ -5,9 +5,9 @@ export default function Experience() {
   const experiences = [
     {
       company: "Rapid7",
-      description: "Leading Cybersecurity company",
+      description: "Cyber-Security",
       period: "June 2023 - June 2024",
-      details: `As a member of the Belfast Inisght VM team, my main project involved creating a Gen AI vulnerability advisory web scraper that automated the creation of security vulnerability artifacts. Delivering customers full security coverage for all Zoom common vulnerabilites and exposures.
+      details: `As a member of the Belfast Content Vulnerability Management team, my main project involved creating a Gen AI vulnerability advisory web scraper that automated the creation of security vulnerability artifacts. Delivering customers full security coverage for all Zoom common vulnerabilites and exposures.
       
       I also contributed to the backend development of the Insight VM Vulnerabilty and Fingerprint services, enhancing user experience and reliabilty for customers globally.
 
