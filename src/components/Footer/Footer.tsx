@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Contact Section */}
           <div className="flex flex-col lg:flex-row w-full justify-between items-start lg:items-center gap-6 md:gap-4">
             <h4 className="text-xl md:text-3xl xl:text-4xl font-medium" id="section-contact">
-              Let&apos;s Collaborate
+              Get In Touch
             </h4>
             
             <a 
