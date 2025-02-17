@@ -74,10 +74,7 @@ export default function Hero() {
             </p>
 
             <p className="text-justify">
-              I previously worked as a Software Engineer at Rapid7, focusing on engineering systems
-              that leveraged AI to collect and process web security advisory content for the
-              InsightVM platform. This content enabled accurate fingerprinting and identification of
-              vulnerabilities across customers environments globally.
+              I previously worked as a Software Engineer at Rapid7, focusing on engineering systems that leveraged AI to collect and process web security advisory content for the InsightVM platform. This content enabled accurate fingerprinting and identification of vulnerabilities across customers environments globally.
             </p>
 
             <p className="text-justify">
