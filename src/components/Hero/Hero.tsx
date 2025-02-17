@@ -68,7 +68,7 @@ export default function Hero() {
         <div className="mb-8 md:mb-12">
           <div className="text-xs md:text-sm lg:text-base text-gray-600 max-w-xl md:max-w-2xl mx-auto space-y-4 md:space-y-6">
             <p className="text-justify">
-              Hi, i'm Matthew. I am currently in my final year of Computer Science at 
+              Hi, i&apos;m Matthew. I am currently in my final year of Computer Science at 
               Queen&apos;s University Belfast. My studies have deepened my interest in 
               Cloud computing as well as Artificial Intelligence.
             </p>
