@@ -72,6 +72,7 @@ export default function Navbar() {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
+      <hr className="h-[2px] bg-gray-200 mt-6 md:mt-8" />
 
       {/* Mobile Menu */}
       {isMenuOpen && (

@@ -61,8 +61,6 @@ export default function Hero() {
   return (
     // className="pt-20 px-4 md:px-8 lg:px-16
     <section id="about" className="px-6 md:px-16 max-w-screen-2xl mx-auto">
-      <h2 className="text-lg md:text-2xl font-medium uppercase mb-4">About Me</h2>
-      <hr className="h-[2px] bg-gray-200 mb-12 md:mb-16" />
       <div className="max-w-screen-xl mx-auto">
         {/* Text Content */}
         <div className="mb-8 md:mb-12">
